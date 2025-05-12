@@ -22,7 +22,7 @@ This Docker image runs a single cron job defined via environment variables.
 ```bash
 docker run -e CRON_COMMAND='echo "Hello from cron"' \
            -e CRON_SCHEDULE='*/5 * * * *' \
-           your-image-name
+           ghcr.io/zen-en-tonal/job:latest
 ````
 
 This will run the specified command every 5 minutes.
